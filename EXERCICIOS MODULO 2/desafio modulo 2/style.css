@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(to bottom, #34BC70, #1C633B) ;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+nav {
+    padding: 1px;
+    text-align: left;
+}
+
+nav a {
+    color: white; /* Cor do texto branca */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 5px; /* Espaço entre os links */
+    font-weight: bold;
+}
+
+nav a:hover {
+
+  padding: 10px;
+  margin: 3px;
+  background-color: #1c633ba6;
+    color: #079207c2; /* Cor quando passa o mouse */
+}
+@font-face {
+  font-family: 'idroid';
+  src: url('fontes/idroid.otf') format('opentype');
+}
+
+.font1 {
+  font-family: 'idroid', sans-serif;
+  color:#4D8264;
+  text-shadow: 1px 2px 3px rgba(0, 230, 50, 0.671);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+body {
+  background-color:#84E0AD; /* Cor para o lado de fora (tela inteira) */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Cor do conteúdo central */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* (Opcional) Sombra para destacar */
+}
+.box {
+  background-color: #d9f3e4; /* Fundo verde claro */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  background-color: #34bc70; /* Fundo verde escuro no título */
+  color: white;
+  padding: 10px;
+  margin: -20px -20px 10px -20px; /* Estica o fundo do título */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box ul {
+  columns: 2; /* Divide a lista em 2 colunas */
+  list-style: none;
+  padding: 0;
+}
+
+.box ul li::before {
+  content: "✔️ ";
+  color: #6c63ff; /* Cor do check */
+}
+#center {
+    text-align: center;
+    /* alinhamento de imagem */
+}
+
+
+
+
+
+
+
+
+
+
